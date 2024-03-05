@@ -1,0 +1,44 @@
+html,
+body {
+    height: 100%;
+    background-image: url(background.png);
+    font-family: 'Courier New', monospace;
+}
+
+.col, .col-md-auto {
+    background: rgba(255, 255, 255, 0.9);
+}
+
+.lockersOverflow {
+    overflow: auto; 
+    padding: 5px;
+}
+.lockerRow {
+    display: inline-block;
+    overflow: hidden;
+}
+.lockerRow select {
+    padding: 2px;
+    margin: -5px -20px -5px -5px;
+}
+.lockerRow select option{
+    font-size: medium;
+    text-align: center;
+    padding: 1px 7px 1px 7px;
+}
+
+option.bg-danger[disabled] {
+    color: black;
+}
+
+.scrollClass {
+    position: absolute;
+    overflow-y: scroll;
+}
+
+.btn {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 15px ! important; 
+ }
+
+
